@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+
+    }
+        
+    header{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+
+    }
+    nav {
+        background-color: black ;
+        padding: 20px;
+        box-shadow: 1px 1px 1px grey;
+    }
+    nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+    }
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: center;
+        border-radius: 20px 20px 20px 20px;
+
+    }
+    article{
+        background-color: lightblue;
+    }
+    article > aside {
+        background-color: lightcoral;
+        padding: 5px;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 4px;
+    }
+    footer > p {
+        margin: 0px;
+        text-align: right;
+    }
+    div#bola{
+        height: 100px;
+        width: 100px;
+        background-color: white;
+        border-radius: 50px;
+    }
+</style>
+</head>
+<body>
+    
+    <!-- Estrutura antiga de Grouping 
+    <div>
+        <div id ="cabeçario">
+            <h1>
+
+            </h1>
+           
+            <div id= "menu">
+
+            </div>
+            <div id="conteudo">
+
+            </div>
+            <div id="rodape">
+
+            </div>
+            
+    </div>
+        <span>
+
+        </span>
+        
+    
+    NOVA ESTRUTURA -->
+
+    <header><!-- Cabeçario-->
+        <h1>Meu site</h1>
+        <nav><!--Para links-->
+            <a href="#">Noticias</a>
+            <a href="#">Esporte</a>
+            <a href="#">Economia</a>
+            <<a href="#">Saude</a>
+        </nav>
+
+    </header>
+    <main><!--Conteudo principal-->
+        <section id="assuntos"> <!--Para criar espaço entre a margem e a borda-->
+
+        </section>
+        <section id="noticias">
+            <article><!--ARTIGO-->
+                <h2>Noticias sobre esporte</h2>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa illo sapiente a cumque rerum corrupti ullam? Sapiente voluptatem iste explicabo, consequatur neque atque voluptates corporis voluptate nulla rem, earum expedita!</P>
+                <aside><!--Referencia-->
+                    <p>Artigo escrito por EU mesmo produções</p>
+
+                </aside>
+
+            </article>
+
+        </section>
+
+    </main>
+    <footer><!--Rodapé-->
+        <P>Desenvolvido por Alex A. Santiago</P>
+
+    </footer>
+    <div id="bola">
+
+    </div>
+
+    
+
+</body>
+</html>
