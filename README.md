@@ -3,4 +3,4 @@
 
  Estou aprendendo html e css e aprimorando meus conhecimentos.
 
- <a href="https://AlexAmorimSantiago.github.io/html-css/CURSOS EM VIDEO\HTML - ATUALIZADO/ESTUDOS/html-css/desafios/site/index.html">executar pagina site</a>
+ <a href="https://alexamorimsantiago.github.io/html-css/exercicios/EX002/index.html">executar exercicio</a>
