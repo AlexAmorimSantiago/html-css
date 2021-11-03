@@ -4,4 +4,4 @@
  Estou aprendendo html e css e aprimorando meus conhecimentos.
 
 
- <a href="https://alexamorimsantiago.github.io/html-css/exercicios/EX002/">executar exercicio</a>
+ <a href="https://alexamorimsantiago.github.io/html-css/exercicios/EX002">executar exercicio</a>
